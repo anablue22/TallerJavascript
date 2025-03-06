@@ -14,6 +14,7 @@ boton.addEventListener('click', function() {
             "A lo largo de los siglos, la música ha evolucionado, reflejando los cambios culturales, sociales y tecnológicos de cada época."
 });
 
+//Vuelve al inicio//
 boton2.addEventListener('click', function(){
     contenido.textContent = contenidoOriginal;
 });
