@@ -9,3 +9,4 @@ boton.addEventListener('click', function() {
             "Inicialmente, la música estaba ligada a rituales religiosos, ceremonias de caza y comunicación tribal. " +
             "A lo largo de los siglos, la música ha evolucionado, reflejando los cambios culturales, sociales y tecnológicos de cada época."
 });
+
