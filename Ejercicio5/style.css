@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{ 
+    margin: 0; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1{ 
+    background-color: rgb(180, 112, 245);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+    margin: 100px;
+}
+
+body.dark-mode{
+    background-color: black;
+    color: black;
+}
+
+button {
+    background-color: rgb(109, 19, 194);
+    color: white; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 20px;
+    margin:20px; 
+    padding: 10px 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    left: 44%;
+}
