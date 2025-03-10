@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 50px; 
+    background-color: rgb(245, 148, 229);
+    text-align: center;
+    border: 30px;
+}
+
+.formulario {
+    display: flex;
+}
