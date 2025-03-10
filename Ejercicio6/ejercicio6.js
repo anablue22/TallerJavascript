@@ -1,8 +1,14 @@
-let nombre = document.getElementById("nombre");
-let correo = docuemnt.getElementById("correo"); 
-let contraseña = document.getElementById("password"); 
+document.getElementById("formulario").addEventListener("submit", function(event) {
+    let email = document.getElementById("email").value; 
+    let errorEmail = document.getElementById("error-email");
+    let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; //esto es para validar el formato d eun correo
 
-if (correo === "") {
-    alert("Por favor, escribe una correo válido.");
-    return;
-}
+    if (!emailRegex.test(email)){
+        errorEmail.textContent = "Por favor, ingresa un correo válido.";
+        event.preventDefault(); //Evita que el formulario se envíe
+    } else {
+        errorEmail.textContent = ""; 
+    }
+})
+ 
+
