@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+img {
+    width: 400px; /* Tamaño de la imagen */
+    height: auto;
+    border-radius: 10px; /* Bordes redondeados */
+    transition: transform 0.3s ease-in-out; /* Animación */
+}
+img:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
