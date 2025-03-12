@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulación de carrito de compras</title>
+</head>
+<body>
+    <h2>Simulación de Carrito de Compras</h2>
+
+    <div class="productos">
+        <h3>Productos</h3>
+        <ul id="lista-productos">
+            <li>Camisa - $20 <button onclick="agregarAlCarrito('Camisa', 20)">Agregar</button></li>
+            <li>Pantalón - $30 <button onclick="agregarAlCarrito('Pantalón', 30)">Agregar</button></li>
+            <li>Zapatos - $50 <button onclick="agregarAlCarrito('Zapatos', 50)">Agregar</button></li>
+        </ul>
+    </div>
+
+    <div class="carrito">
+        <h3>Carrito</h3>
+        <ul id="lista-carrito"></ul>
+        <p class="total">Total: $<span id="total">0</span></p>
+    </div>
+    <script src="ejercicio19.js"></script>
+</body>
+</html>
