@@ -1,0 +1,23 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 50px;
+    background-color: rgb(122, 122, 236);
+}
+.contenedor {
+    padding: 20px;
+    border: 2px solid #000;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+}
+input {
+    padding: 8px;
+    font-size: 16px;
+    width: 100px;
+    text-align: center;
+}
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
