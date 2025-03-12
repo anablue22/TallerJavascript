@@ -1,0 +1,21 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#cuadrado {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    top: 125px;
+    left: 225px;
